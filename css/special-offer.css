@@ -87,6 +87,7 @@
 
 .spesial-offer__duration {
   margin-top: 29px;
+  cursor: grab;
 }
 
 .timer {
