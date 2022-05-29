@@ -1,0 +1,43 @@
+.proposal {
+  padding-top: 73px;
+  padding-bottom: 65px;
+  background-color: #fff;
+}
+.proposal__content {
+  display: grid;
+  grid-template-columns: minmax(400px, 669px) minmax(200px, 485px);
+  grid-template-rows: 247px 247px;
+  column-gap: 18px;
+  row-gap: 17px;
+}
+.proposal__modern {
+  padding-top: 49px;
+  padding-left: 31px;
+  grid-row: 1/3;
+  background-image: url(../images/proposal/modern.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.modern__title {
+  font-weight: 700;
+}
+
+.modern__subtitle {
+  margin-top: 10px;
+}
+
+.modern__link {
+  margin-top: 13px;
+}
+.proposal__geometric {
+  padding-top: 52px;
+  padding-left: 24px;
+  background-image: url(../images/proposal/geometric.jpg);
+}
+
+.proposal__minimal {
+  padding-top: 37px;
+  padding-left: 24px;
+  background-image: url(../images/proposal/minimal.jpg);
+}

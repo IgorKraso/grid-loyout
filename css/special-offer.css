@@ -1,0 +1,125 @@
+.special-offer {
+  padding-top: 54px;
+  padding-bottom: 150px;
+}
+
+.special-offer__catalogue {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 270px));
+  grid-template-rows: repeat(3, 125px);
+  column-gap: 30px;
+}
+
+.title-space {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.speciale-offer__first-card {
+  grid-column: 1/3;
+  grid-row: 2/4;
+  position: relative;
+}
+
+.first-card_content {
+  grid-column: 1/3;
+  grid-row: 2/4;
+  z-index: 1;
+}
+
+.speciale-offer__second-card {
+  grid-column: 3/5;
+  grid-row: 2/4;
+  position: relative;
+}
+
+.second-card_content {
+  grid-column: 3/5;
+  grid-row: 2/4;
+  z-index: 1;
+}
+
+.special-offer__img {
+  max-width: 100%;
+}
+
+.status-discount {
+  background-color: #00b7f1;
+  right: 0;
+  border-radius: 0px 0px 0px 5px;
+}
+
+.content {
+  padding-top: 28px;
+  padding-left: 22px;
+}
+
+.speciale-offer__card-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 11px;
+}
+
+.speciale-offer__card-text {
+  max-width: 227px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 20px;
+
+  color: #757575;
+}
+
+.seciale-offer__card-btn {
+  margin-left: 27px;
+  width: 91px;
+  height: 26px;
+  background: #7ac751;
+  border-radius: 2px;
+  padding: 6px 10px 7px 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  color: #ffffff;
+}
+
+.spesial-offer__duration {
+  margin-top: 29px;
+}
+
+.timer {
+  font-family: "Rubik";
+  font-style: normal;
+  display: flex;
+  column-gap: 18px;
+}
+
+.timer-section {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #7ac751;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.units {
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.numbers {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #ffffff;
+}
